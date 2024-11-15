@@ -124,8 +124,6 @@ var/list/ventcrawl_machinery = list(
 		return 1
 	if(istype(carried_item, /obj/item/clothing/under))
 		return 1 //Allow jumpsuits only
-	if(istype(carried_item, /obj/item/rig_module/protean))
-		return 1 //inherent to proteans
 	if(istype(carried_item, /obj/item))
 		var/obj/item/I = carried_item
 		if(I.w_class <= 2)
