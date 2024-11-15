@@ -24,7 +24,6 @@
 	melee_damage_lower = 5
 	melee_damage_upper = 5
 	attacktext = list("slashed")
-	see_in_dark = 10
 
 	min_oxy = 0
 	max_oxy = 0
