@@ -121,13 +121,13 @@ var/list/ventcrawl_machinery = list(
 
 /mob/living/simple_mob/protean_blob/is_allowed_vent_crawl_item(var/obj/item/carried_item)
 	if((carried_item in humanform.organs) || (carried_item in humanform.internal_organs))
-		return 1
+		return TRUE
 	if(istype(carried_item, /obj/item/clothing/under))
-		return 1 //Allow jumpsuits only
+		return TRUE //Allow jumpsuits only
 	if(istype(carried_item, /obj/item))
 		var/obj/item/I = carried_item
-		if(I.w_class <= 2)
-			return 1 //Allow them to carry items that fit in pockets
+		if(I.w_class <= ITEMSIZE_SMALL)
+			return TRUE //Allow them to carry items that fit in pockets
 	return ..()
 
 /mob/living/AltClickOn(var/atom/A)
