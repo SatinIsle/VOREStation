@@ -60,7 +60,10 @@
 /turf/simulated/floor/water/deep/ocean/diving
 
 /turf/simulated/floor/water/deep/ocean/diving/CanZPass(atom, direction)
-	return 1
+	return TRUE
+
+/turf/simulated/floor/water/underwater/CanZPass(atom, direction)
+    return direction == UP
 
 //Variations of underwater icons
 
