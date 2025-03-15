@@ -103,7 +103,7 @@
 
 	if(!target.consume_liquid_belly)
 		if(liquid_belly_check())
-			to_chat(user, "[user == target ? "You can't" : "\The [target] can't"] consume that, it contains something produced from a belly!")
+			to_chat(user, span_infoplain("[user == target ? "You can't" : "\The [target] can't"] consume that, it contains something produced from a belly!"))
 			return FALSE
 
 	if(ishuman(target))
