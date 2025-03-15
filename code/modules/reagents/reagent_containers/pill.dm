@@ -25,7 +25,7 @@
 /obj/item/reagent_containers/pill/attack(mob/M as mob, mob/user as mob)
 	if(!M.consume_liquid_belly)
 		if(liquid_belly_check())
-			to_chat(user, "[user == M ? "You can't" : "\The [M] can't"] consume that, it contains something produced from a belly!")
+			to_chat(user, span_infoplain("[user == M ? "You can't" : "\The [M] can't"] consume that, it contains something produced from a belly!"))
 			return FALSE
 	if(M == user)
 		if(ishuman(M))

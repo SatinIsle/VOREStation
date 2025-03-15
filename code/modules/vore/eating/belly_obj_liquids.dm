@@ -165,7 +165,7 @@
 		if(REAGENT_CLEANER)
 			generated_reagents = list(REAGENT_ID_CLEANER_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_CLEANER
+				reagent_name = "cleaner"
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_CLEANER_BELLY
@@ -197,7 +197,7 @@
 		if(REAGENT_TRICORDRAZINE)
 			generated_reagents = list(REAGENT_ID_TRICORDRAZINE_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_TRICORDRAZINE
+				reagent_name = "tricordrazine"
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_TRICORDRAZINE_BELLY

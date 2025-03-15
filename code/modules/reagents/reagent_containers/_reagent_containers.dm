@@ -154,5 +154,5 @@
 /obj/item/reagent_containers/proc/liquid_belly_check()
 	for(var/datum/reagent/R in reagents.reagent_list)
 		if(R.from_belly)
-			return 1
-	return 0
+			return TRUE
+	return FALSE

@@ -37,7 +37,7 @@
 		return
 	if(!M.consume_liquid_belly)
 		if(liquid_belly_check())
-			to_chat(user, "[user == M ? "You can't" : "\The [M] can't"] take that, it contains something produced from a belly!")
+			to_chat(user, span_infoplain("[user == M ? "You can't" : "\The [M] can't"] take that, it contains something produced from a belly!"))
 			return FALSE
 
 	var/mob/living/carbon/human/H = M
