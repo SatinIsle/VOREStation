@@ -107,100 +107,100 @@
 /obj/belly/proc/ReagentSwitch()
 	switch(reagent_chosen)
 		if(REAGENT_WATER)
-			generated_reagents = list(REAGENT_ID_WATER = 1)
+			generated_reagents = list(REAGENT_ID_WATER_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_WATER
+				reagent_name = "water"
 			gen_amount = 1
 			gen_cost = 1
-			reagentid = REAGENT_ID_WATER
+			reagentid = REAGENT_ID_WATER_BELLY
 			reagentcolor = "#0064C877"
 		if(REAGENT_MILK)
-			generated_reagents = list(REAGENT_ID_MILK = 1)
+			generated_reagents = list(REAGENT_ID_MILK_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_MILK
+				reagent_name = "milk"
 			gen_amount = 1
 			gen_cost = 5
-			reagentid = REAGENT_ID_MILK
+			reagentid = REAGENT_ID_MILK_BELLY
 			reagentcolor = "#DFDFDF"
 		if(REAGENT_CREAM)
-			generated_reagents = list(REAGENT_ID_CREAM = 1)
+			generated_reagents = list(REAGENT_ID_CREAM_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_CREAM
+				reagent_name = "cream"
 			gen_amount = 1
 			gen_cost = 5
-			reagentid = REAGENT_ID_CREAM
+			reagentid = REAGENT_ID_CREAM_BELLY
 			reagentcolor = "#DFD7AF"
 		if(REAGENT_HONEY)
-			generated_reagents = list(REAGENT_ID_HONEY = 1)
+			generated_reagents = list(REAGENT_ID_HONEY_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_HONEY
+				reagent_name = "honey"
 			gen_amount = 1
 			gen_cost = 10
-			reagentid = REAGENT_ID_HONEY
+			reagentid = REAGENT_ID_HONEY_BELLY
 			reagentcolor = "#FFFF00"
 		if(REAGENT_CHERRYJELLY)	//Kinda WIP, allows slime like folks something to stuff others with, should make a generic jelly in future
-			generated_reagents = list(REAGENT_ID_CHERRYJELLY = 1)
+			generated_reagents = list(REAGENT_ID_CHERRYJELLY_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
 				reagent_name = "cherry jelly"
 			gen_amount = 1
 			gen_cost = 10
-			reagentid = REAGENT_ID_CHERRYJELLY
+			reagentid = REAGENT_ID_CHERRYJELLY_BELLY
 			reagentcolor = "#801E28"
 		if(REAGENT_STOMACID)
-			generated_reagents = list(REAGENT_ID_STOMACID = 1)
+			generated_reagents = list(REAGENT_ID_STOMACID_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
 				reagent_name = "digestive acid"
 			gen_amount = 1
 			gen_cost = 1
-			reagentid = REAGENT_ID_STOMACID
+			reagentid = REAGENT_ID_STOMACID_BELLY
 			reagentcolor = "#664330"
 		if(REAGENT_DIETSTOMACID)
-			generated_reagents = list(REAGENT_ID_DIETSTOMACID = 1)
+			generated_reagents = list(REAGENT_ID_DIETSTOMACID_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
 				reagent_name = "diluted digestive acid"
 			gen_amount = 1
 			gen_cost = 1
-			reagentid = REAGENT_ID_DIETSTOMACID
+			reagentid = REAGENT_ID_DIETSTOMACID_BELLY
 			reagentcolor = "#664330"
 		if(REAGENT_CLEANER)
-			generated_reagents = list(REAGENT_ID_CLEANER = 1)
+			generated_reagents = list(REAGENT_ID_CLEANER_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
 				reagent_name = REAGENT_CLEANER
 			gen_amount = 1
 			gen_cost = 10
-			reagentid = REAGENT_ID_CLEANER
+			reagentid = REAGENT_ID_CLEANER_BELLY
 			reagentcolor = "#A5F0EE"
 		if(REAGENT_LUBE)
-			generated_reagents = list(REAGENT_ID_LUBE = 1)
+			generated_reagents = list(REAGENT_ID_LUBE_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_LUBE
+				reagent_name = "lube"
 			gen_amount = 1
 			gen_cost = 10
-			reagentid = REAGENT_ID_LUBE
+			reagentid = REAGENT_ID_LUBE_BELLY
 			reagentcolor = "#009CA8"
 		if(REAGENT_BIOMASS)
-			generated_reagents = list(REAGENT_ID_BIOMASS = 1)
+			generated_reagents = list(REAGENT_ID_BIOMASS_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_BIOMASS
+				reagent_name = "biomass"
 			gen_amount = 1
 			gen_cost = 10
-			reagentid = REAGENT_ID_BIOMASS
+			reagentid = REAGENT_ID_BIOMASS_BELLY
 			reagentcolor = "#DF9FBF"
 		if(REAGENT_CONCENTRATEDRADIUM)
-			generated_reagents = list(REAGENT_ID_CONCENTRATEDRADIUM = 1)
+			generated_reagents = list(REAGENT_ID_CONCENTRATEDRADIUM_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
 				reagent_name = "concentrated radium"
 			gen_amount = 1
 			gen_cost = 1
-			reagentid = REAGENT_ID_CONCENTRATEDRADIUM
+			reagentid = REAGENT_ID_CONCENTRATEDRADIUM_BELLY
 			reagentcolor = "#C7C7C7"
 		if(REAGENT_TRICORDRAZINE)
-			generated_reagents = list(REAGENT_ID_TRICORDRAZINE = 1)
+			generated_reagents = list(REAGENT_ID_TRICORDRAZINE_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = REAGENT_ID_TRICORDRAZINE
+				reagent_name = REAGENT_TRICORDRAZINE
 			gen_amount = 1
 			gen_cost = 10
-			reagentid = REAGENT_ID_TRICORDRAZINE
+			reagentid = REAGENT_ID_TRICORDRAZINE_BELLY
 			reagentcolor = "#8040FF"
 			is_beneficial = TRUE
 
