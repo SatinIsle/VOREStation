@@ -109,7 +109,7 @@
 		if(REAGENT_WATER)
 			generated_reagents = list(REAGENT_ID_WATER_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "water"
+				reagent_name = REAGENT_ID_WATER
 			gen_amount = 1
 			gen_cost = 1
 			reagentid = REAGENT_ID_WATER_BELLY
@@ -117,7 +117,7 @@
 		if(REAGENT_MILK)
 			generated_reagents = list(REAGENT_ID_MILK_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "milk"
+				reagent_name = REAGENT_ID_MILK
 			gen_amount = 1
 			gen_cost = 5
 			reagentid = REAGENT_ID_MILK_BELLY
@@ -125,7 +125,7 @@
 		if(REAGENT_CREAM)
 			generated_reagents = list(REAGENT_ID_CREAM_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "cream"
+				reagent_name = REAGENT_ID_CREAM
 			gen_amount = 1
 			gen_cost = 5
 			reagentid = REAGENT_ID_CREAM_BELLY
@@ -133,7 +133,7 @@
 		if(REAGENT_HONEY)
 			generated_reagents = list(REAGENT_ID_HONEY_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "honey"
+				reagent_name = REAGENT_ID_HONEY
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_HONEY_BELLY
@@ -165,7 +165,7 @@
 		if(REAGENT_CLEANER)
 			generated_reagents = list(REAGENT_ID_CLEANER_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "cleaner"
+				reagent_name = REAGENT_CLEANER
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_CLEANER_BELLY
@@ -173,7 +173,7 @@
 		if(REAGENT_LUBE)
 			generated_reagents = list(REAGENT_ID_LUBE_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "lube"
+				reagent_name = REAGENT_ID_LUBE
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_LUBE_BELLY
@@ -181,7 +181,7 @@
 		if(REAGENT_BIOMASS)
 			generated_reagents = list(REAGENT_ID_BIOMASS_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "biomass"
+				reagent_name = REAGENT_ID_BIOMASS
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_BIOMASS_BELLY
@@ -197,7 +197,7 @@
 		if(REAGENT_TRICORDRAZINE)
 			generated_reagents = list(REAGENT_ID_TRICORDRAZINE_BELLY = 1)
 			if(capitalize(reagent_name) in reagent_choices)
-				reagent_name = "tricordrazine"
+				reagent_name = REAGENT_ID_TRICORDRAZINE
 			gen_amount = 1
 			gen_cost = 10
 			reagentid = REAGENT_ID_TRICORDRAZINE_BELLY
