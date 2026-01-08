@@ -1,4 +1,4 @@
 author: "Kashargul"
 delete-after: True
 changes:
-  - code_imp: "updates rust g to 6.0.0"
+  - code_imp: "moves those alists to lists"
