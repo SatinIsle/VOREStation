@@ -19,8 +19,7 @@ VBO_intestines9
 VBO_notbelly
 VBO_wriggly
 
-Hunter Dovetail:
-CC BY-SA-ND 3.0
+Hunter Dovetail (Discord: hunter_53073):
 VBO_maw15
 VBO_maw16
 VBOanim_belly2
